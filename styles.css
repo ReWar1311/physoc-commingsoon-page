@@ -109,9 +109,9 @@ video {
 }
 
 @media (max-width: 768px) {
-    html{
+    html, body, .video-container{
         overflow-x: hidden;
-        max-width: 100vw;
+        max-width: 100%;
     }
     .contact-info p {
         margin: 0;
