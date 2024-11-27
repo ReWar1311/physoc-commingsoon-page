@@ -91,6 +91,9 @@ a{
 }
 
 .video-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;;
     width: 100%;
     height: auto;
     position: relative;
@@ -98,9 +101,7 @@ a{
 }
 
 video {
-    scale: 1.5;
-    object-fit: cover;
-    width: 100%;
+    width: 200%;
     height: 100%;
     height: auto;
     border-radius: 10px;
@@ -124,6 +125,10 @@ video {
         padding: 0%;
         margin: 0%;
         padding-top: 10rem;
+    }
+    video{
+        width: 150%;
+        height: auto;
     }
     .text-container{
         display: flex;
