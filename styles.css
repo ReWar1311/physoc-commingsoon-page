@@ -1,0 +1,131 @@
+html{
+    overflow-x: hidden;
+
+}
+body {
+    margin: 0px;
+    padding: 0px 10px;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: rgb(202, 182, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    position: relative;
+    padding-right: 1rem;
+    box-shadow: 10px wheat;
+
+
+}
+.logo{
+    display: flex;
+    scale: 0.5;
+    align-items: center;
+    justify-content: center;
+
+}
+.logoName{
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo img {
+scale: 0.8;
+}    
+
+.logoName *{
+    padding: 0%;
+    margin: 1%;
+
+}
+
+.text-container {
+    max-width: 35%;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    z-index: 1;;
+}
+
+
+.quote {
+    font-size: 1em;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.contact-info {
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info i {
+    margin-right: px;
+}
+
+.video-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 0;
+}
+
+video {
+    scale: 1.5;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    height: auto;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .video-container{
+        width: 100%;        
+        padding: 0%;
+        margin: 0%;
+        padding-top: 10rem;
+    }
+    .text-container{
+        max-width: 80%;
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+    }
+
+
+} 
