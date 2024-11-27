@@ -108,6 +108,9 @@ video {
 }
 
 @media (max-width: 768px) {
+    html{
+        overflow-x: hidden;
+    }
     .container {
         flex-direction: column;
         width: 100%;
