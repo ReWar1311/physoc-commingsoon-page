@@ -36,22 +36,24 @@ a{
 }
 .logo{
     display: flex;
-    scale: 0.5;
     align-items: center;
     justify-content: center;
 
 }
+.logo img{
+    width: 30%;
+}
 .logoName{
-    font-size: 2em;
+    font-size: 1.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
+.logoName h2{
+    font-weight: 100;
+}
 
-.logo img {
-scale: 0.8;
-}    
 
 .logoName *{
     padding: 0%;
@@ -121,11 +123,30 @@ video {
         padding-top: 10rem;
     }
     .text-container{
+        display: flex;
+        flex-direction: column;;
+        align-items: center;
+        justify-content: center;
         max-width: 80%;
         width: 100%;
         padding: 0%;
         margin: 0%;
     }
+    .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
 
+}
+.logoName{
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+    
 
 } 
