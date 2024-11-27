@@ -128,7 +128,7 @@ video {
     .text-container{
         display: flex;
         flex-direction: column;;
-        align-items: center;
+        align-items: left;
         justify-content: center;
         max-width: 80%;
         width: 100%;
