@@ -156,6 +156,9 @@ video {
     width: 100%;
 
 }
+.quote{
+    display: none;
+}
 .logoName{
     font-size: 1em;
     display: flex;
